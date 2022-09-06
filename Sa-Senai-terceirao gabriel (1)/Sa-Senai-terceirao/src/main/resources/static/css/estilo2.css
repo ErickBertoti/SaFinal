@@ -130,3 +130,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.session-authentication .label-link {
+  float: right;
+  font-size: 12px;
+}
+.right-0 {
+  right: 0 !important;
+}
+.top-0 {
+  top: 0 !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+a {
+  color: var(--color-accent-fg);
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+* {
+  box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}

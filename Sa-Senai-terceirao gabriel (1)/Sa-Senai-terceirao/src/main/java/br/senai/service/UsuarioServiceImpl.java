@@ -51,16 +51,11 @@ public class UsuarioServiceImpl implements UsuarioService {
         Optional listUsuario = usuarioRepository.findById(id);
         if (!listUsuario.isEmpty()) {
             return (Usuario) listUsuario.get();
-
         } else {
 
             return (Usuario) listUsuario.get();
-
         }
-
-
     }
-
     @Override
     public Usuario save(Usuario usuario) {
         try {
